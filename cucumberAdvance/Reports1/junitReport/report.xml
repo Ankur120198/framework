@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="11.76">
+    <testcase classname="Test Orange HRM website" name="Verifying atleast 2 users" time="6.348">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Then login using userid: Admin and Password: admin123.......................passed
+Then user clicks on admin...................................................passed
+And user navigate to user management........................................passed
+Then user clicks on users...................................................passed
+Then user enters Mubeen1....................................................undefined
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at Assignment1.AssignmentCode.tearDown(AssignmentCode.java:61)
+]]></failure>
+    </testcase>
+    <testcase classname="Test Orange HRM website" name="Verifying atleast 2 users 2" time="5.171">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Then login using userid: Admin and Password: admin123.......................passed
+Then user clicks on admin...................................................passed
+And user navigate to user management........................................passed
+Then user clicks on users...................................................passed
+Then user enters Raxil......................................................undefined
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at Assignment1.AssignmentCode.tearDown(AssignmentCode.java:61)
+]]></failure>
+    </testcase>
+    <testcase classname="Test Orange HRM website" name="Verifying Employee name column" time="0.007">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Then login using userid: Admin and Password: admin123.......................failed
+Then user navigate to leave.................................................skipped
+And user clicks on my leave.................................................skipped
+Then user verify Employee Name column presence..............................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at Assignment1.AssignmentHRMCode.login_using_userid_admin_and_password_admin123(AssignmentHRMCode.java:57)
+	at ✽.login using userid: Admin and Password: admin123(file:///C:/Users/AKUM1351/Desktop/CAPGEMINI/EcllipseWorkspace/cucumberAdvance/src/test/resources/Features/orangeHRM.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
